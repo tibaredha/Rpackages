@@ -1,0 +1,31 @@
+Package: yahiatiba
+Title: maladie a declaration obligatoire
+Version: 0.0.0.9001
+Authors@R: c(
+  person("Redha", "TIBA", role = "cre", email = "prenom.nom@insee.fr"),
+  person("Redha", "TIBA", role = "aut"),
+  person("azzedine", "BOULAOUCHE", role = "aut"),
+  person("xx", "yyy", role = "ctb"),
+  person(family = "Institut national de la statistique et des études économiques", role = "cph")
+  )         
+Description: maladie a declaration obligatoire.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    ggplot2,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr (>= 0.8),
+    lifecycle,
+    lubridate,
+    magrittr,
+    tidyr
+VignetteBuilder: knitr
